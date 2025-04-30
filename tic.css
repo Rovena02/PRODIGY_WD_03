@@ -110,7 +110,6 @@ button:hover {
     cursor: pointer;
 }
 
-/* Dark Theme */
 body.dark-theme {
     background: linear-gradient(to right, #2c2c2c, #1f1f1f);
     color: #e0e0e0;
@@ -139,7 +138,6 @@ body.dark-theme #scoreboard {
     color: #ccc;
 }
 
-/* Responsive */
 @media (max-width: 500px) {
     #game-board {
         grid-template-columns: repeat(3, 70px);
