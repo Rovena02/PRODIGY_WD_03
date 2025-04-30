@@ -11,7 +11,6 @@ const winningConditions = [
   [0,4,8], [2,4,6]
 ];
 
-// Theme Toggle
 document.getElementById("theme-switch").addEventListener("change", (e) => {
   document.body.classList.toggle("dark-theme", e.target.checked);
 });
